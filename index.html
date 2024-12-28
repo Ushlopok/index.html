@@ -9,30 +9,31 @@
             margin: 0;
             padding: 0;
             background-color: black;
-            color: white; 
-            display: flex; 
-            flex-direction: column; 
+            color: white;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh; 
+            height: 100vh;
             font-family: Arial, sans-serif;
-            text-align: center; 
-            position: relative; 
-            overflow: hidden; 
+            text-align: center;
+            position: relative;
+            overflow: hidden;
         }
 
         .content {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            flex-grow: 1;
-            padding: 20px 10px;
+            height: 90%;
+            max-width: 80%;
+            text-align: center;
         }
 
         h3 {
-            font-size: 20px;
-            margin: 0 auto; 
-            position: relative; 
+            font-size: 24px;
+            margin: 0;
+            position: relative;
             z-index: 2;
             text-shadow: 
                 -1px -1px 0 black,
@@ -42,29 +43,32 @@
         }
 
         p {
-            font-size: 14px;
-            margin: 0 auto; 
-            max-width: 90%; 
-            line-height: 1.5; 
+            font-size: 18px;
+            margin: 0;
+            line-height: 1.8;
             position: relative;
             z-index: 2;
             text-shadow: 
                 -1px -1px 0 black, 
                  1px -1px 0 black, 
                 -1px  1px 0 black, 
-                 1px  1px 0 black; 
+                 1px  1px 0 black;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .background-image {
-            position: absolute; 
-            z-index: 1; 
-            opacity: 0.8; 
+            position: absolute;
+            z-index: 1;
+            opacity: 0.8;
             border-radius: 10px;
         }
 
         .image1 {
             top: 5%;
-            left: 10%; 
+            left: 10%;
             width: 150px;
             height: 150px;
             background: url('images/photo1.jpg') no-repeat center/cover;
@@ -126,11 +130,11 @@
             }
 
             h3 {
-                font-size: 18px;
+                font-size: 20px;
             }
 
             p {
-                font-size: 12px;
+                font-size: 14px;
             }
         }
 
@@ -181,7 +185,7 @@
             }
 
             p {
-                font-size: 10px;
+                font-size: 12px;
             }
         }
     </style>
